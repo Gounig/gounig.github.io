@@ -9,56 +9,46 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+경력
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**자동차 애프터마켓 부품 수출 기업 · 무역 실무**
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **수출 실무 전 과정**
+  * 선적 마감: 결제조건·인코텀즈(FOB, CFR, CIF, CIP, EXW, DDP) 확인, 선사·포워딩 부킹, VGM·SR 제출, 체크 B/L 바이어 컨펌
+  * 서류·통관: CI·PL·CO 작성, 원산지증명(한·중·일·대만·독일·인도), 위험물·MSDS·용도설명서 등 통관 서류
+  * 결제·네고: L/C·D/A·D/P 네고, 바이어별 결제조건 관리
+  * 리스크 관리: K-SURE 단기수출보험 가입·사고접수, 적하보험, 관세환급
+* **바이어별 결제조건 재설계**
+  * 장기 거래 바이어 L/C → D/A·D/P 전환, 결제 지연 바이어 D/P 조건 강화, 은행 환가요율 비교
+  * 은행 수수료 약 40% 절감 · 국내 수수료 약 10% 절감 · 연간 미인수부도 4건 → 1건
+* **무역보험 기반 채권 리스크 관리**
+  * 바이어별 결제 신용도 분석, K-SURE 가입 및 사후관리, 만기 후 미입금 시 사고접수
+  * 미회수 손실 연 2~3건 → 0건 · 수출 대금 회수율 100%
+* **업무 자동화 · 사내 AI 도입**
+  * K-SURE 한도 조회 자동화, 수출신고필증 기반 FOB·중량 계산기, 팔레트 적재 계산기 직접 구현
+  * 사내 AI(Claude) 도입 추진 · 회사 첫 AI 활용 포상
+* **관세환급 · 매출** · 원상태 관세환급으로 자금 효율성 향상 · 월 매출 역대 최고치 달성 기여로 우수사원 표창
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+학력
+======
+* 한신대학교 국제경제학과 졸업 (2024.02) · 총동문회장상 수상
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+자격 · 어학
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 원산지관리사 (인증수출자 자격 보유)
+* 무역영어 1급
+* 데이터 분석 준전문가 (ADsP)
+* HSK 6급
+* TOEIC Speaking IH
 
-Publications
+기술
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* 데이터: SQL (SQLite) · Power BI (DAX) · Python (pandas)
+* AI 활용: Claude 기반 업무 자동화 도구 제작
+* 무역 시스템: Cargo X · E-TRANS · K-SURE
+
+대외 활동 · 수상
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 2026 네이버 클립 크리에이터 선정 (스포츠 숏폼)
+* 2023 ACE FAIR 수출상담회 중국어 통역 (통역확인증)
+* 2022 제1회 한중일 아시아 장기기증 국제심포지엄 중국어 통역 · 한국장기기증협회 표창
